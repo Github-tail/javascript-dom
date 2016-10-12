@@ -20,13 +20,26 @@
 		</nav>
 	</header>
 	<article>
-		
-		<p id="intro">
-			欢迎来到XX乐队的官方网站!
-			在这，你可以<a href="about.html" title="About">了解到更多我们乐队</a>,
-			可以看到<a href="photos.html" title="Photos">乐队的纪念照</a>,
-			还能提前知道<a href="live.html" title="Tour Date">演出日期</a>和<a href="contact.html" title="Contact">跟乐队零距离接触</a>.
-		</p>
+		<h1>联系我们</h1>
+		<form method="post" action="submit.html">
+			<fieldset>
+				<p>
+					<label for="name">姓名：</label>
+					<input type="text" id="name" name="name" placeholder="请填写您的姓名" required="required">
+				</p>
+				<p>
+					<label for="email">邮箱：</label>
+					<input type="email" id="email" name="email" placeholder="请填写您的邮箱" required="required">
+				</p>
+				<p>
+					<label for="message">内容：</label>
+					<textarea cols="45" rows="7" id="message" name="message" required="required" placeholder="在此填写您的意见和建议"></textarea>
+				</p>
+				<p>
+					<input type="submit" value="提交">
+				</p>
+			</fieldset>
+		</form>
 	</article>
 
 
